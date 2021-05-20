@@ -29,18 +29,9 @@ Here, amazon is the project name. You can give any name of your choice
 5. ~ % cd amazon
 6. ~ % scrapy genspider reviews amazon.com
 <reviews> in the above command is the name of the spider and make sure you don't use the same name as your project name
-Now the contents of the directory has one more new sub folder under 
-    
-   ├── scrapy.cfg                # deploy configuration file
-└── amazon             # project's Python module, you'll import your code from here
-    ├── __init__.py
-    ├── items.py              # project items definition file
-    ├── middlewares.py        # project middlewares file
-    ├── pipelines.py          # project pipeline file
-    ├── settings.py           # project settings file
-    └── spiders               # a directory where spiders are located
-        ├── __init__.py
-        └── reviews.py        # spider we just created
+Now the contents of the directory should typically be as shown below:
+    ![alt text](https://github.com/IndupriyaKompi/")
+   
            
     
 
