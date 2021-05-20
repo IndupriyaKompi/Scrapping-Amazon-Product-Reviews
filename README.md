@@ -8,5 +8,10 @@ If you're wondering if it's legal?! Check out [this](https://www.blog.datahut.co
 
 NOTE: I would recommend you to use google chrome
 
+Let's begin! 
+
+This is how a typical url for any product on amazon looks like.
+https://www.amazon.com/Kindle-Paperwhite-Waterproof-Storage-Special/dp/B07PS737QQ/ref=cm_cr_arp_d_product_top?ie=UTF8
+What matters is just the ASIN number, which in this case is B07PS737QQ. You can simple get rid of the rest of details and simply use https://www.amazon.com/dp/B07PS737QQ/ instead and it yeilds the same result.
 
 
