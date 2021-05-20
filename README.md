@@ -51,8 +51,12 @@ This will create a amazon directory with the following contents:
 Now the contents of the directory has one more new sub folder under 
     
     amazon/
-        spider/                 # spider for the project
+        scrapy.cfg        # deploy configuration file
+
+    amazon/               # project's Python module, you'll import your code from here
+        spider/           # spider for the project
             __init__.py
-            reviews.py          # the empty spider that has been created
+            reviews.py    # the empty spider that has been created
+           
     
 
