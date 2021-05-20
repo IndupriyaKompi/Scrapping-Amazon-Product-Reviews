@@ -35,14 +35,14 @@ Here, amazon is the project name. You can give any name of your choice
 
 6. ~ % scrapy genspider reviews amazon.com
 
-<reviews> in the above command is the name of the spider and make sure you don't use the same name as your project name
+In the above command, reviews is the name of the spider that we're creating, make sure you don't use the same name as your project name
 Now the contents of the directory should typically be as shown below:
    
    
     
       ├── scrapy.cfg                # deploy configuration file
     
-      └── scrapy_spider             # project's Python module, you'll import your code from here
+      └── amazon             # project's Python module, you'll import your code from here
         
             ├── __init__.py
         
@@ -58,9 +58,9 @@ Now the contents of the directory should typically be as shown below:
             
                   ├── __init__.py
             
-                  └── example.py        # spider we just created
+                  └── reviews.py        # spider we just created
 
-
+[This](https://www.youtube.com/watch?v=R-9UWqyFtNQ&t=805s) is the video I followed for the next steps
    
            
     
