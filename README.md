@@ -32,25 +32,25 @@ Here, amazon is the project name. You can give any name of your choice
 Now the contents of the directory should typically be as shown below:
    
     
-    ├── scrapy.cfg                # deploy configuration file
+      ├── scrapy.cfg                # deploy configuration file
     
-    └── scrapy_spider             # project's Python module, you'll import your code from here
+      └── scrapy_spider             # project's Python module, you'll import your code from here
         
-         ├── __init__.py
-        
-         ├── items.py              # project items definition file
-        
-         ├── middlewares.py        # project middlewares file
-        
-         ├── pipelines.py          # project pipeline file
-        
-         ├── settings.py           # project settings file
-        
-         └── spiders               # a directory where spiders are located
-            
             ├── __init__.py
+        
+            ├── items.py              # project items definition file
+        
+            ├── middlewares.py        # project middlewares file
+        
+            ├── pipelines.py          # project pipeline file
+        
+            ├── settings.py           # project settings file
+        
+            └── spiders               # a directory where spiders are located
             
-            └── example.py        # spider we just created
+                  ├── __init__.py
+            
+                  └── example.py        # spider we just created
 
 
    
