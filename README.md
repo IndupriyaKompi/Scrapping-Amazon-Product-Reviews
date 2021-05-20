@@ -26,37 +26,21 @@ Open your command prompt and start a spider as follows:
 3. ~ % scrapy
 4. ~ % scrapy startproject amazon
 Here, amazon is the project name. You can give any name of your choice
-This will create a amazon directory with the following contents:
-
-    amazon/
-        scrapy.cfg        # deploy configuration file
-
-    amazon/               # project's Python module, you'll import your code from here
-        __init__.py
-
-        items.py          # project items definition file
-
-        middlewares.py    # project middlewares file
-
-        pipelines.py      # project pipelines file
-
-        settings.py       # project settings file
-
-        spiders/          # a directory where you'll later put your spiders
-            __init__.py
-
 5. ~ % cd amazon
 6. ~ % scrapy genspider reviews amazon.com
 <reviews> in the above command is the name of the spider and make sure you don't use the same name as your project name
 Now the contents of the directory has one more new sub folder under 
     
-    amazon/
-        scrapy.cfg        # deploy configuration file
-
-    amazon/               # project's Python module, you'll import your code from here
-        spider/           # spider for the project
-            __init__.py
-            reviews.py    # the empty spider that has been created
+   ├── scrapy.cfg                # deploy configuration file
+└── amazon             # project's Python module, you'll import your code from here
+    ├── __init__.py
+    ├── items.py              # project items definition file
+    ├── middlewares.py        # project middlewares file
+    ├── pipelines.py          # project pipeline file
+    ├── settings.py           # project settings file
+    └── spiders               # a directory where spiders are located
+        ├── __init__.py
+        └── reviews.py        # spider we just created
            
     
 
