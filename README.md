@@ -22,12 +22,17 @@ Since we're interested only in scraping the reviews, we can rather use https://w
 Open your command prompt and start a spider as follows:
 
 1. Activate the virtual environment
+
 2. Make you you install the packages here. Follow [these](https://docs.scrapy.org/en/latest/intro/install.html#intro-install) steps
+
 3. ~ % scrapy
+
 4. ~ % scrapy startproject amazon
 
 Here, amazon is the project name. You can give any name of your choice
+
 5. ~ % cd amazon
+
 6. ~ % scrapy genspider reviews amazon.com
 
 <reviews> in the above command is the name of the spider and make sure you don't use the same name as your project name
