@@ -6,7 +6,7 @@ The product reviews can be obtained simply by scrapping directly from the amazon
 
 If you're wondering if it's legal?! Check out [this](https://www.blog.datahut.co/post/is-web-data-scraping-legal) blog.
 
-NOTE: I would recommend you to use google chrome
+I would recommend you to use **google chrome**
 
 Let's begin! 
 
